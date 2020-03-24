@@ -22,4 +22,6 @@ optionally, install mikemech:
 
 Try out example:
 
-    ./example_dir.py 192.168.3.134
+    ./example_dir.py 192.168.3.135
+    ./ps.py 192.168.3.135 'Write-Output hello'
+    ./ps_using_winrs.py 192.168.3.135 "powershell Write-Host hello"
