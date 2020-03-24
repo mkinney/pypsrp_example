@@ -32,3 +32,4 @@ if __name__ == '__main__':
         process.signal(SignalCode.CTRL_C)
         print('stdout', process.stdout)
         print('stderr', process.stderr)
+        print('rc', process.rc)
